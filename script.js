@@ -39,16 +39,16 @@ participants[x].rank = x+1 ;
 
 let template = `
                 <tr>
-                    <td>${participants[x].rank}</td>
-                    <td>${participants[x].sno}</td>
-                    <td>${participants[x].team}</td>
-                    <td>${participants[x].games}</td>
-                    <td>${participants[x].won}</td>
-                    <td>${participants[x].draw}</td>
-                    <td>${participants[x].lost}</td>
-                    <td>${participants[x].tb1}</td>
-                    <td>${participants[x].tb2}</td>
-                    <td>${participants[x].tb3}</td>
+                    <td style="text-align: center">${participants[x].rank}</td>
+                    <td style="text-align: center">${participants[x].sno}</td>
+                    <td style="text-align: center">${participants[x].team}</td>
+                    <td style="text-align: center">${participants[x].games}</td>
+                    <td style="text-align: center">${participants[x].won}</td>
+                    <td style="text-align: center">${participants[x].draw}</td>
+                    <td style="text-align: center">${participants[x].lost}</td>
+                    <td style="text-align: center">${participants[x].tb1}</td>
+                    <td style="text-align: center">${participants[x].tb2}</td>
+                    <td style="text-align: center">${participants[x].tb3}</td>
                     
                 </tr>`;
 table.innerHTML += template;
