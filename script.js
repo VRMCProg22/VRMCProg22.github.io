@@ -18,7 +18,7 @@ const participants = [JohnCena,"fkajhfalhf"];
 
 let table = document.querySelector('table');
 
-let name = 'e';
+let name = 's';
 let age = 's';
 let country = 't';
 
