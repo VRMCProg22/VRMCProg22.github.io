@@ -37,15 +37,24 @@ let country = 't';
 let x = 0;
 
 while (x < participants.length){
-x ++ ;
+
 
 let template = `
                 <tr>
-                    <td>${name}</td>
-                    <td>${age}</td>
-                    <td>${country}</td>
+                    <td>${x}</td>
+                    <td>${participants[x].sno}</td>
+                    <td>${participants[x].team}</td>
+                    <td>${participants[x].games}</td>
+                    <td>${participants[x].won}</td>
+                    <td>${participants[x].draw}</td>
+                    <td>${participants[x].lost}</td>
+                    <td>${participants[x].tb1}</td>
+                    <td>${participants[x].tb2}</td>
+                    <td>${participants[x].tb3}</td>
+                    
                 </tr>`;
 table.innerHTML += template;
+x ++ ;
  
 }
 
