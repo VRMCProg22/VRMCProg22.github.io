@@ -25,7 +25,7 @@ let country = 't';
 
 let x = 0;
 
-//while (x < participants.length){
+while (x < participants.length){
 x ++ ;
 
 let template = `
@@ -36,4 +36,4 @@ let template = `
                 </tr>`;
 table.innerHTML += template;
  
-//}
+}
