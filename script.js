@@ -35,12 +35,9 @@ while (x <= participants.length){
 
 let table = document.querySelector('table');
 
-let name = 'jahdb';
-let age = 's';
-let country = 't';
 
 
-x = 0;
+let x = 0;
 
 while (x <= participants.length){
 
