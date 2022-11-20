@@ -28,12 +28,7 @@ participants.sort((a, b) => {
 });
 
 let x = 0;
-while (x <= participants.length){
 
-  participants[x].rank = x+1;
-  x++ ;
-    
-}
 
 let table = document.querySelector('table');
 
