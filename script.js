@@ -25,7 +25,7 @@ participants.sort((a, b) => {
         return 1;
     return 0;
 });
-console.log(participants);
+
 
 let table = document.querySelector('table');
 
