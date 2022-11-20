@@ -18,7 +18,7 @@ const participants = [JohnCena,"fkajhfalhf"];
 
 let table = document.querySelector('table');
 
-let name = 's';
+let name = 'jahkdahbkdb';
 let age = 's';
 let country = 't';
 
@@ -26,7 +26,7 @@ let country = 't';
 let x = 0;
 
 //while (x < participants.length){
-x += 1;
+x ++ ;
 
 let template = `
                 <tr>
