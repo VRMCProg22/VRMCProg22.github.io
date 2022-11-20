@@ -15,7 +15,7 @@ class Team {
 let JohnCena = new Team(1,"Ur mum",4,2,6,3,7,8,2);
 let Rick = new Team(1,"WHEEEEEEEEE",4,2,6,3,9,8,2);
 let Why = new Team(1,"Gae",4,2,6,3,4,6,2);
-let participants = [JohnCena,"fkajhfalhf"];
+let participants = [JohnCena,Rick,Why];
 
 
 participants.sort((a, b) => {
@@ -41,7 +41,6 @@ while (x <= participants.length){
 
 let template = `
                 <tr>
-                    <td>${x}</td>
                     <td>${participants[x].sno}</td>
                     <td>${participants[x].team}</td>
                     <td>${participants[x].games}</td>
