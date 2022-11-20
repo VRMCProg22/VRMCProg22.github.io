@@ -13,7 +13,7 @@ class Team {
 }
 
 let JohnCena = new Team(1,"Ur mum",4,2,6,3,7,8,2);
-const participants = [JohnCena];
+const participants = [JohnCena,"fkajhfalhf"];
 
 
 let table = document.querySelector('table');
@@ -22,6 +22,10 @@ let name = 'e';
 let age = 's';
 let country = 't';
 
+
+
+for (let x in person) {
+  
 let template = `
             <tr>
                 <td>${name}</td>
@@ -30,4 +34,5 @@ let template = `
             </tr>`;
 
 table.innerHTML += template;
-
+  
+}
