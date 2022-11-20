@@ -38,10 +38,10 @@ let x = 0;
 
 while (x <= participants.length){
 
-
+let y = x;
 let template = `
                 <tr>
-                    <td>${x}</td>
+                    <td>${y}</td>
                     <td>${participants[x].sno}</td>
                     <td>${participants[x].team}</td>
                     <td>${participants[x].games}</td>
