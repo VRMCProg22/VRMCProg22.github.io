@@ -27,6 +27,7 @@ participants.sort((a, b) => {
     return 0;
 });
 
+let x = 0;
 while (x <= participants.length){
 
   participants[x].rank = x+1;
