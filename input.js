@@ -1,23 +1,18 @@
-let btnAdd = document.querySelector('button');
-let table = document.querySelector('table');
 
 
-let nameInput = document.querySelector('#name');
-let ageInput = document.querySelector('#age');
-let countryInput = document.querySelector('#country');
 
 
-btnAdd.addEventListener('click', () => {
-    let name = nameInput.value;
-    let age = ageInput.value;
-    let country = countryInput.value;
 
-    let template = `
-                <tr>
-                    <td>${name}</td>
-                    <td>${age}</td>
-                    <td>${country}</td>
-                </tr>`;
+let name = 'e';
+let age = 's';
+let country = 't';
 
-    table.innerHTML += template;
-});
+let template = `
+            <tr>
+                <td>${name}</td>
+                <td>${age}</td>
+                <td>${country}</td>
+            </tr>`;
+
+table.innerHTML += template;
+
