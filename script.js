@@ -27,12 +27,13 @@ let x = 0;
 
 //while (x < participants.length){
 x += 1;
+
 let template = `
-            <tr>
-                <td>${name}</td>
-                <td>${age}</td>
-                <td>${country}</td>
-            </tr>`;
+                <tr>
+                    <td>${name}</td>
+                    <td>${age}</td>
+                    <td>${country}</td>
+                </tr>`;
 table.innerHTML += template;
  
 //}
