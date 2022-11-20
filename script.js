@@ -42,7 +42,7 @@ let age = 's';
 let country = 't';
 
 
-let x = 0;
+x = 0;
 
 while (x <= participants.length){
 
