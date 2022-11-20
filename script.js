@@ -34,5 +34,7 @@ let template = `
             </tr>`;
 
 table.innerHTML += template;
+table.innerHTML += template;
+table.innerHTML += template;
   
 }
