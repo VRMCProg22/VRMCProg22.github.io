@@ -1,7 +1,7 @@
 
 
 
-
+let table = document.querySelector('table');
 
 let name = 'e';
 let age = 's';
