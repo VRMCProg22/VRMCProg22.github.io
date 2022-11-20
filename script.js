@@ -28,7 +28,10 @@ participants.sort((a, b) => {
 });
 
 let x = 0;
-
+while (x <= participants.length){
+  participants[x].rank = x+1 ;
+  x ++ ;
+}
 
 let table = document.querySelector('table');
 
@@ -41,7 +44,7 @@ x = 0;
 
 while (x <= participants.length){
 
-let y = x;
+
 let template = `
                 <tr>
                     <td>${participants[x].sno}</td>
