@@ -23,18 +23,17 @@ let age = 's';
 let country = 't';
 
 
+let x = 0;
 
-for (let x in person) {
-  
-let template = `
+while (x < participants.length){
+  x += 1;
+  let template = `
             <tr>
                 <td>${name}</td>
                 <td>${age}</td>
                 <td>${country}</td>
             </tr>`;
 
-table.innerHTML += template;
-table.innerHTML += template;
-table.innerHTML += template;
-  
+  table.innerHTML += template;
+ 
 }
