@@ -1,5 +1,6 @@
 class Team {
   constructor(sno,team,games,won,draw,lost,tb1,tb2,tb3) {
+    this.rank = 0;
     this.sno = sno ;
     this.team = team ;
     this.games = games ;
@@ -26,6 +27,12 @@ participants.sort((a, b) => {
     return 0;
 });
 
+while (x <= participants.length){
+
+  participants[x].rank = x+1;
+  x++ ;
+    
+}
 
 let table = document.querySelector('table');
 
