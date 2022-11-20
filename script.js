@@ -41,6 +41,7 @@ while (x <= participants.length){
 
 let template = `
                 <tr>
+                    <td>${x}</td>
                     <td>${participants[x].sno}</td>
                     <td>${participants[x].team}</td>
                     <td>${participants[x].games}</td>
