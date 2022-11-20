@@ -27,11 +27,11 @@ participants.sort((a, b) => {
     return 0;
 });
 
-let x = 0;
+let y = 0;
 
-while (x <= participants.length){
-  participants[x].rank = x+1 ;
-  x ++ ;
+while (y <= participants.length){
+  participants[y].rank = y+1 ;
+  y ++ ;
 }
 
 
