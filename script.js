@@ -37,3 +37,5 @@ let template = `
 table.innerHTML += template;
  
 }
+
+
